@@ -6,6 +6,10 @@ public class Main {
 		System.out.println("This is java program");
 		System.out.println("The Date : " + new Date());
 		System.out.println("Test");
+		
+		Student student = new Student();
+		
+		student.sayHello();
 	}
 
 }
